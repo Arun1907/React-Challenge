@@ -1,0 +1,41 @@
+.app {
+  font-size:15px;
+  margin: 10px;
+  height:100%;
+}
+
+
+.front-segment-btn{
+  border: 2px solid rgb(21, 182, 236);
+  padding: 10px 20px;
+  color: rgb(21, 182, 236);
+  font-size: 20px;
+  display: flex;
+  margin-top: 100px;
+  margin-left: 30%;
+  border: 3px solid rgb(21, 182, 236);
+}
+
+.segment-circle{
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+@media(max-width:1024px){
+  .front-segment-btn{
+    margin-left: 20%;
+  }
+}
+
+@media(max-width:850px){
+  .front-segment-btn{
+    margin-left: 10%;
+  }
+}
+
+@media(max-width:630px){
+  .front-segment-btn{
+    margin-left: 0;
+  }
+}

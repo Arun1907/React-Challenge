@@ -1,0 +1,53 @@
+.add-schema-dropdown {
+    margin-top: 10px;
+    background: none;
+}
+
+.dropdown-list select {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 12px;
+    background: none;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px;
+    background: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    background: none;
+}
+
+.circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-top: 8px;
+
+}
+a{
+    padding-left: 25px;
+}
+.cancel-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    height: 40px;
+    width: 40px;
+    background: none;
+}
+
+@media(max-width:1200){
+    
+}
